@@ -1,0 +1,384 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.containeor{
+    width: 100%;
+    height: 100vh; 
+    background-image: url('./slider.png');
+    background-size: cover;
+    /* background: linear-gradient(252.61deg, #000000 -0.22%, rgba(0, 0, 0, 0) 108.72%); */
+      
+
+}
+
+
+.navbar{
+    /* width: 100%;
+    height: 100px; */
+    border-bottom: 1px solid rgb(145, 144, 144);
+    background: linear-gradient(252.61deg, #000000 -0.22%, rgba(0, 0, 0, 0) 108.72%);
+    margin: 0px;
+    padding: 0px;
+    
+}
+.header{
+    /* width: 100%; */
+    /* height: 100px; */
+    display: flex;
+    justify-content: space-between;
+}
+.header-left{
+    width: 30%;
+      
+}
+.left-image{
+   width:90%;
+}
+.header-middle{
+    width: 30%;
+    /* height: 100px; */
+
+    
+    
+}
+.under-list{
+     list-style-type: none;
+     
+     
+}
+.list{
+    display: inline-block;
+    color: white;
+    margin-top: 30px !important;
+    margin-left: 15px;   
+    
+}
+.header-right{
+    width: 30%;
+    /* height: 100px; */
+    
+    
+}
+.header-right-icon{
+    justify-content: space-between;
+    margin: 10px;
+    margin-top: 30px;
+}
+.Description{
+    /* position: absolute; */
+    margin-top: 100px;
+    margin-left: 240px;
+}
+.button1{
+    background: linear-gradient(252.61deg, #000000 -0.22%, rgba(0, 0, 0, 0) 108.72%);
+    height: 40px;
+    border: 1px solid rgb(228, 226, 226);
+    border-radius: 4px;
+    color: white;
+}
+.button2{
+    height: 40px;
+    background-color: #00AEEF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    margin-left: 20px;
+}
+.second-div{
+    width: 100%;
+    height: 400px;
+    display: flex;
+}
+.second-div-left{
+    width: 30%;
+    height: 380px;
+    margin-left: auto;
+    margin-right: 20px;
+}
+.second-div-right{
+    width: 30%;
+    height: 380px;
+    margin-right: auto;
+    margin-left: 20px;
+}
+.div-left-image{
+    width: 80%;
+    margin-top: 40px;
+    margin-left: 80px;
+}
+.button2{
+    height: 40px;
+    background-color: #00AEEF;
+    border-radius: 4px;
+    color: white;
+    
+}
+.third-div{
+    width: 100%;
+    height: 400px; 
+    background-color: #EBECF6;
+    display: flex;
+}
+.third-div-left{
+    width: 30%;
+    margin-top: 150px;
+    margin-left: 240px;
+
+}
+.third-div-right{
+    width: 40%;
+    
+
+}
+.third-div-image{
+    width: 100%;
+    margin-top: 100px;
+}
+.fourth-div{
+    width: 60%;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+}
+.fivth-main-div{
+    width: 80%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+}
+.fivth-div-left{
+    width: 30%;
+    
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+.fivth-left-section1{
+    width: 95%;
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+    
+
+}
+.fivth-left-section2{
+    width: 95%;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    
+}
+
+.fivth-div-mid{
+    width: 30%;
+    margin: auto;
+
+}
+.fivth-mid-image{
+    width: 82%;
+    margin: auto;
+    
+}
+.fivth-div-right{
+    width: 30%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+.fivth-right-section1{
+    width: 95%;
+    height: 230px; 
+    text-align: center;
+    margin: auto;
+    font-size: 16px;
+
+}
+.fivth-right-section2{
+    width: 95%;
+    height: 230px;
+    margin: auto;
+    text-align: center;
+    font-size: 16px;
+    
+}
+.sixth{
+    width: 100%;
+    text-align: center;
+    background-color:#EBECF6 ;
+    display: flex;
+    
+}
+.sixth-div{
+    width: 60%;
+    margin: auto;
+    padding-top: 50px;
+    background-color:#EBECF6 ;
+    margin-top: 50px;
+    
+    
+}
+.seventh-main-div{
+    width: 100%;
+    background-color:#EBECF6 ;
+    padding-bottom: 80px;
+    position: relative;
+    
+}
+.section1{
+    width: 100%;
+    display: flex;
+}
+.section1-left{
+    width: 30%;
+    margin-left: auto;
+    
+    
+}
+.arrow1{
+    position: absolute;
+    margin-left: 170px;
+    margin-top: -56px;
+    
+}
+
+.section1-right{
+    width: 30%;
+    margin-right: auto;
+    
+    padding-top: 100px;
+
+}
+.seventh-section1-image{
+    width: 70%;
+    align-items: center;
+}
+.section2{
+    width: 100%;
+    display: flex;
+}
+.section2-left{
+    width: 30%;
+    margin-left: auto;
+    padding-top: 100px;
+}
+.section2-right{
+    width: 30%;
+    margin-right: auto;
+    position: relative;
+}
+.arrow2{
+   position: absolute;
+   margin-top: -90px;
+   left:-160px;
+}
+.section3{
+    width: 100%;
+    display: flex;
+}
+.section3-left{
+    width: 30%;
+    margin-left: auto;
+}
+.section3-right{
+    width: 30%;
+    margin-right: auto;
+    padding-top: 100px;
+}
+.section4{
+    width: 100%;
+    
+    display: flex;
+    
+}
+.section4-left{
+    width: 15%;
+    margin-left: auto;
+}
+.section4-button1{
+    width: 100%;
+    background-color: #000000;
+    margin-right: 5px;
+    
+    
+    
+}
+.section4-right{
+    width: 15%;
+    margin-right: auto;
+    
+}
+.section4-button2{
+    width: 100%;
+    background-color: #000000;
+    margin-left: 5px;
+    
+}
+.button1-span{
+    color: white;
+    font-size: 12px;
+    
+}
+.button2-span{
+    color: white;
+    font-size: 12px;
+}
+.button1-icon{
+    float: left;
+}
+.button2-icon{
+    float: left;
+}
+.eight-main-div{
+    width: 100%;
+    background-color: #0C0D10;
+    
+    
+}
+.eight-second-main{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.eight-left{
+    width: 20%;
+    color: white;
+    margin: auto;
+}
+.eight-left-div-image{
+    width: 90%;
+    margin-left: -70px;
+}
+.eight-mid1{
+    width: 20%;
+    color: white;
+    margin: auto;
+}
+.eight-mid2{
+    width: 20%;
+    color: white;
+    margin: auto;
+}
+.eight-right{
+    width: 20%;
+    color: white;
+    margin: auto;
+}
+.eight-mid1 ul{
+    list-style-type: none;
+    text-decoration: underline;
+    color: white;
+}
+.eight-mid1 ul li{
+    color: white;
+}
+.eight-mid2 ul{
+    list-style-type: none;
+    text-decoration: underline;
+    color: white;
+}
+.eight-mid2 ul li{
+    color: white;
+}
